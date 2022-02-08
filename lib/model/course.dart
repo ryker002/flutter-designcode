@@ -7,6 +7,7 @@ class Course {
     this.background,
     this.illustration,
     this.logo,
+    this.color,
   });
 
   var courseTitle;
@@ -14,6 +15,7 @@ class Course {
   LinearGradient? background;
   String? illustration;
   String? logo;
+  var color;
 }
 
 // Recent Courses
@@ -31,6 +33,10 @@ var recentCourses = [
     ),
     illustration: 'illustration-01.png',
     logo: 'flutter-logo.png',
+    color: [
+      Color(0xFF00AEFF),
+      Color(0xFF0076FF),
+    ]
   ),
   Course(
     courseTitle: "Prototyping with ProtoPie",
@@ -45,6 +51,10 @@ var recentCourses = [
     ),
     illustration: 'illustration-02.png',
     logo: 'protopie-logo.png',
+    color: [
+      Color(0xFFFD504F),
+      Color(0xFFFF8181),
+    ]
   ),
   Course(
     courseTitle: "Build an app with SwiftUI",
@@ -59,6 +69,10 @@ var recentCourses = [
     ),
     illustration: 'illustration-03.png',
     logo: 'swift-logo.png',
+    color: [
+      Color(0xFF00E1EE),
+      Color(0xFF001392),
+    ]
   ),
 ];
 
@@ -76,6 +90,10 @@ var exploreCourses = [
       ],
     ),
     illustration: 'illustration-04.png',
+    color: [
+      Color(0xFF5BCEA6),
+      Color(0xFF1997AB),
+    ]
   ),
   Course(
     courseTitle: "Build an app with SwiftUI",
@@ -89,6 +107,10 @@ var exploreCourses = [
       ],
     ),
     illustration: 'illustration-05.png',
+    color: [
+      Color(0xFFA931E5),
+      Color(0xFF4B02FE),
+    ]
   ),
 ];
 
@@ -106,6 +128,10 @@ var continueWatchingCourses = [
       ],
     ),
     illustration: 'illustration-06.png',
+    color: [
+      Color(0xFF4E62CC),
+      Color(0xFF202A78),
+    ]
   ),
   Course(
     courseTitle: "Animating in Principle",
@@ -119,6 +145,10 @@ var continueWatchingCourses = [
       ],
     ),
     illustration: 'illustration-07.png',
+    color: [
+      Color(0xFFFA7D75),
+      Color(0xFFC23D61),
+    ]
   ),
 ];
 
@@ -136,6 +166,10 @@ var courseSections = [
       ],
     ),
     illustration: 'illustration-01.png',
+    color: [
+      Color(0xFF00AEFF),
+      Color(0xFF0076FF),
+    ]
   ),
   Course(
     courseTitle: "Flutter for Designers",
@@ -149,6 +183,10 @@ var courseSections = [
       ],
     ),
     illustration: 'illustration-08.png',
+    color: [
+      Color(0xFFE477AE),
+      Color(0xFFC54284),
+    ]
   ),
   Course(
     courseTitle: "ProtoPie Prototyping",
@@ -162,6 +200,10 @@ var courseSections = [
       ],
     ),
     illustration: 'illustration-09.png',
+    color: [
+      Color(0xFFEA7E58),
+      Color(0xFFCE4E27),
+    ]
   ),
   Course(
     courseTitle: "UI Design Course",
@@ -175,6 +217,10 @@ var courseSections = [
       ],
     ),
     illustration: 'illustration-10.png',
+    color: [
+      Color(0xFF72CFD4),
+      Color(0xFF42A0C2),
+    ]
   ),
   Course(
     courseTitle: "React for Designers",
@@ -188,6 +234,10 @@ var courseSections = [
       ],
     ),
     illustration: 'illustration-11.png',
+    color: [
+      Color(0xFFFF2E56),
+      Color(0xFFCB012B),
+    ]
   ),
 ];
 
@@ -205,6 +255,10 @@ var completedCourses = [
       ],
     ),
     illustration: 'illustration-12.png',
+    color: [
+      Color(0xFFFF6B94),
+      Color(0xFF6B2E98),
+    ]
   ),
   Course(
     courseTitle: "Swift Advanced",
@@ -218,5 +272,9 @@ var completedCourses = [
       ],
     ),
     illustration: 'illustration-13.png',
+    color: [
+      Color(0xFFDEC8FA),
+      Color(0xFF4A1B6D),
+    ]
   ),
 ];
