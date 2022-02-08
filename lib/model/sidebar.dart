@@ -7,7 +7,7 @@ class SidebarItem{
   Icon icon;
 }
 
-var sidebarItem = [
+List<SidebarItem> sidebarItem = [
   SidebarItem(
     title: "Home",
     background: LinearGradient(
